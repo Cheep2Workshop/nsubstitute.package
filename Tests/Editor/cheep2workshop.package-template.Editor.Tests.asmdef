@@ -1,0 +1,14 @@
+{
+    "name": "cheep2workshop.package-template.Editor.Tests",
+    "rootNamespace": "Cheep2Workshop.PackageTemplate.Editor.Tests",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

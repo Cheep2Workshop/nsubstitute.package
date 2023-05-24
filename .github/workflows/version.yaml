@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches: [ develop ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout src
+        uses: actions/checkout@v2
+      - name: Run script
+        run: bash ./.github/scripts/up_version.sh
+      - name: Update git
+        run: |
+          git config --global user.name 'Coinmouse'
+          git config --global user.email 'jack81722@gmail.com'
+          git remote set-url origin https://x-access-token:${{ secrets.MOUSE_GIT_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git commit -am "Auto CI"
+          git push

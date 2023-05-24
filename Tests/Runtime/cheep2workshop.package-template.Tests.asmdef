@@ -1,0 +1,16 @@
+{
+    "name": "com.cheep2workshop.package-template.tests",
+    "rootNamespace": "Cheep2Workshop.PackageTemplate.Tests",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

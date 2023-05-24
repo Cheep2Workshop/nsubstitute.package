@@ -1,0 +1,22 @@
+{
+  "name": "com.cheep2workshop.package",
+  "version": "1.0.0",
+  "displayName": "Cheep2Workshop Package Template",
+  "description": "Cheep2Workshop Package Template",
+  "unity": "2021.3",
+  "unityRelease": "9f1",
+  "documentationUrl": "https://www.unity3d.com",
+  "changelogUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cheep2Workshop/com.cheep2workshop.package.template.git"
+  },
+  "author": {
+    "name": "Cheep2Workshop",
+    "email": "jack81722@gmail.com",
+    "url": "https://www.unity3d.com"
+  }
+}
