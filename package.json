@@ -1,8 +1,8 @@
 {
-  "name": "com.cheep2workshop.package",
+  "name": "substitute.package",
   "version": "1.0.0",
-  "displayName": "Cheep2Workshop Package Template",
-  "description": "Cheep2Workshop Package Template",
+  "displayName": "Substitute Package",
+  "description": "Substitute Pacakge",
   "unity": "2021.3",
   "unityRelease": "9f1",
   "documentationUrl": "https://www.unity3d.com",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cheep2Workshop/com.cheep2workshop.package.template.git"
+    "url": "https://github.com/Cheep2Workshop/substitute.package.git"
   },
   "author": {
     "name": "Cheep2Workshop",
